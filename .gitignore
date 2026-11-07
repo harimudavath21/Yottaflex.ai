@@ -1,0 +1,48 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Generated synthetic reports
+synthetic/reports/
+
+# Temporary and generated files
+*.tmp
+*.bak
+
+# Local database test scripts
+/test_appeal.py
+/test_appeal_decision.py
+/test_decision.py
+/test_evidence.py
+/test_connection.py
